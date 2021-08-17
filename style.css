@@ -1,0 +1,113 @@
+body {
+    background-image: url("cyber_back.png");
+    background-attachment:fixed;
+    background-size: auto;
+    font-family: 'Roboto';
+}
+.header{
+    background-color: rgb(35, 69, 99);
+    margin:0;
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    font-family: 'Handlee', cursive;
+}
+.mid
+{
+    background-color:white;
+    margin:0;
+    width:100%;
+    position:absolute;
+    left:0;
+    
+}
+a:link {
+
+background-color:transparent;
+text-decoration: none;
+}
+
+a:visited {
+color:rgb(21, 129, 124);
+background-color: transparent;
+text-decoration: none;
+}
+a:hover {
+color:black;
+background-color: transparent;
+text-decoration:underline;
+
+}
+h1,ul{
+color:white;
+}
+input{
+font-size: 20px;
+border-style:double;
+border-width:4px;
+border-color:rgb(255, 255, 255) ;
+border-radius: 10px;
+
+}
+a{
+font-size: 30px;
+border-radius: 10px;
+}
+.dropbtn {
+background-color:red;
+color: white;
+padding: 15px;
+font-size: 30px;
+border: 5px solid white;
+border-radius: 10px;
+cursor:pointer;
+margin-left:500px;
+}
+
+.dropdown {
+position:relative;
+display:inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:wheat;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration:none;
+display: block;
+font-size:25px;
+}
+
+.dropdown-content a:hover {background-color:white}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color:blueviolet;
+}
+.footer{
+    height:400px;
+    width:100%;
+    background-color: aqua;
+    display: flex;
+    margin:0;
+    position:absolute;
+    left:0;
+    font-family: 'Handlee', cursive;
+}
+.div{
+    height:100%;
+    width:25%;
+    
+}
